@@ -3,8 +3,8 @@ package UI;
 import java.util.Observable;
 import java.util.Observer;
 
-import application.FranceGame;
-import application.NumberGame;
+import guessinggame.FranceGame;
+import guessinggame.NumberGame;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

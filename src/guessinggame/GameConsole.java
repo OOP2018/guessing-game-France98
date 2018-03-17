@@ -1,4 +1,4 @@
-package application;
+package guessinggame;
 import java.util.Scanner;
 
 /** 

@@ -2,8 +2,8 @@ package UI;
 
 import java.util.Observable;
 
-import application.FranceGame;
-import application.NumberGame;
+import guessinggame.FranceGame;
+import guessinggame.NumberGame;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;

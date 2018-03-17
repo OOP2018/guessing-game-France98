@@ -2,8 +2,8 @@ package UI;
 
 import java.net.URL;
 
-import application.FranceGame;
-import application.NumberGame;
+import guessinggame.FranceGame;
+import guessinggame.NumberGame;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
