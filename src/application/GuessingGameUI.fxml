@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane alignment="TOP_CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="307.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="93.0" prefWidth="414.0" text="Guess the Secret Number" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </Label>
+      <Label alignment="CENTER" prefHeight="38.0" prefWidth="126.0" text="You Guess?" textAlignment="CENTER">
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="input" alignment="CENTER" prefHeight="42.0" prefWidth="252.0" promptText="Input the number" />
+      <Label fx:id="hint" alignment="CENTER" prefHeight="84.0" prefWidth="402.0" text="Hint">
+         <FlowPane.margin>
+            <Insets top="30.0" />
+         </FlowPane.margin>
+      </Label>
+   </children>
+</FlowPane>
